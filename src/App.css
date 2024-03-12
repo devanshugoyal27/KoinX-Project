@@ -1,0 +1,21 @@
+
+
+
+body{
+  background-color: rgb(236, 236, 243);
+}
+
+.customBg{
+  background: rgb(58,99,180);
+background: linear-gradient(90deg, rgba(58,99,180,1) 0%, rgba(255,0,0,1) 0%, rgba(254,199,29,1) 52%, rgba(50,253,63,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+.backBgCustom{
+  background: rgb(58,99,180);
+background: linear-gradient(90deg, rgba(58,99,180,1) 0%, rgba(0,255,106,1) 0%, rgba(29,113,254,1) 100%, rgba(50,253,63,1) 100%);
+}
+
+.backbgCustom2{
+  background: rgb(58,99,180);
+background: linear-gradient(90deg, rgba(58,99,180,1) 0%, rgba(255,166,0,1) 0%, rgba(254,29,29,1) 100%);
+}
