@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import Simmer from "./Simmer";
+import ShimmerUi from "./Shimmer/ShimmerUi";
 import TradingViewWidget from "./TradingViewWidget";
 
 const PriceAndChart = () => {
@@ -63,7 +63,7 @@ const PriceAndChart = () => {
             </div>
           </div>
         ) : (
-          <Simmer />
+          <ShimmerUi />
         )}
       </div>
     </div>

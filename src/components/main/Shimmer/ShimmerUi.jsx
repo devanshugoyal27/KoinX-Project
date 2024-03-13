@@ -1,6 +1,6 @@
 import React from "react";
 
-const Simmer = () => {
+const ShimmerUi = () => {
   return (
     <div>
       <div className=" shadow rounded-md p-4  w-full h-[70vh] mx-auto bg-white mt-5">
@@ -21,4 +21,4 @@ const Simmer = () => {
   );
 };
 
-export default Simmer;
+export default ShimmerUi;
